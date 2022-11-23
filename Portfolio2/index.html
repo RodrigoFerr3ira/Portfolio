@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link  rel="stylesheet"  href="https://unpkg.com/swiper/swiper-bundle.min.css"  />
+  <link rel="stylesheet" href="style.css">
+  <title>Rodrigo Ferreira</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou Rodrigo Ferreira</h2>
+        <span class="home-position">Um ser humano</span>
+        <span class="home-resume">
+          Me considero uma pessoa inteligente, o que absolutamente apenas quer dizer que tenho mais dúvidas que certeza
+        </span>
+        <button>
+          <a href="#contact">Contato</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="./img/foto.png" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <a href="https://eamorteperderaoseudominio.home.blog/2019/04/27/primeiro-post-do-blog/"><img src="./img/blog1.jpg" alt="blog1"></a>
+            </div>
+            <div class="project-info">
+              <h2><a href="https://eamorteperderaoseudominio.home.blog/2019/04/27/primeiro-post-do-blog/">O Futuro da Humanidade</a></h2>
+              <p><a href="https://eamorteperderaoseudominio.home.blog/2019/04/27/primeiro-post-do-blog/">Um ensaio crítico sobre o Futuro da Humanidade.</a></p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <a href="https://eamorteperderaoseudominio.home.blog/2020/02/09/quando-deus-morre/"><img src="./img/blog2.jpg" alt="blog2"></a>
+            </div>
+            <div class="project-info">
+              <h2><a href="https://eamorteperderaoseudominio.home.blog/2020/02/09/quando-deus-morre/">Deus</a></h2>
+              <p><a href="https://eamorteperderaoseudominio.home.blog/2020/02/09/quando-deus-morre/">Ensaio sobre a existência de Deus.</a></p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <p>Fone: (44)9999-9999<br>
+    E-mail: rodrigo@rodrigo.com.br<br>
+    Blog: <a href="https://eamorteperderaoseudominio.home.blog/" color: blue>E a morte perderá o seu domínio</a>
+    </p>
+  </section>
+
+  <footer>
+    copyright © 2022 Rodrigo Ferreira. Todos os direitos reservados
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
